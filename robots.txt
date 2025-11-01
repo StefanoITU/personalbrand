@@ -1,0 +1,49 @@
+# robots.txt for Stefano Vincenti Personal Brand Website
+# Allow all search engines and AI crawlers to index this site
+
+User-agent: *
+Allow: /
+
+# Specific rules for AI/LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Traditional search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://stefanoitu.github.io/personalbrand/sitemap.xml

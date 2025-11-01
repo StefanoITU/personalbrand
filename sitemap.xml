@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://stefanoitu.github.io/personalbrand/</loc>
+        <lastmod>2025-11-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://stefanoitu.github.io/personalbrand/Stef%20Bottellme%201.png</image:loc>
+            <image:title>Stefano Vincenti - GenAI Consultant and AI Transformation Expert</image:title>
+            <image:caption>Professional profile of Stefano Vincenti, GenAI Consultant, AI Startup Co-founder, and Lecturer</image:caption>
+        </image:image>
+    </url>
+</urlset>
