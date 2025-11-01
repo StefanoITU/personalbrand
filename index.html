@@ -12,11 +12,13 @@
     <meta property="og:description" content="Guiding companies through AI transformations with strategic vision and practical implementation">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://stefanoitu.github.io/personalbrand/">
+    <meta property="og:image" content="https://stefanoitu.github.io/personalbrand/Stef%20Bottellme%201.png">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Stefano Vincenti - GenAI Consultant">
     <meta name="twitter:description" content="AI Transformation Expert | Lecturer | Co-founder">
+    <meta name="twitter:image" content="https://stefanoitu.github.io/personalbrand/Stef%20Bottellme%201.png">
 
     <title>Stefano Vincenti - GenAI Consultant & AI Transformation Expert</title>
 
@@ -58,6 +60,31 @@
             padding: 60px 20px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-image:hover {
+            transform: scale(1.05);
+        }
+
+        .header-text {
+            flex: 1;
         }
 
         header h1 {
@@ -340,6 +367,11 @@
 
         /* Responsive Design */
         @media (max-width: 768px) {
+            .profile-image {
+                width: 140px;
+                height: 140px;
+            }
+
             header h1 {
                 font-size: 2rem;
             }
@@ -368,18 +400,23 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <h1>Stefano Vincenti</h1>
-            <p class="subtitle">GenAI Consultant | AI Startup Co-founder | Generative AI Trainer | Lecturer at IT University of Copenhagen</p>
-            <div class="contact-info">
-                <span>📍 Copenhagen, Denmark</span>
-                <span>📧 <a href="mailto:stefano.vincenti@gmail.com">stefano.vincenti@gmail.com</a></span>
-                <span>📱 +45 25291770</span>
-            </div>
-            <div class="contact-info" style="margin-top: 15px;">
-                <a href="https://www.linkedin.com/in/stefanovincenti" target="_blank">LinkedIn</a> |
-                <a href="https://www.agilcoach.dk/" target="_blank">AgilCoach.dk</a> |
-                <a href="https://bottellme.com/" target="_blank">BotTellMe</a> |
-                <a href="https://tryzone.dk/" target="_blank">tryZone</a>
+            <div class="header-content">
+                <img src="Stef Bottellme 1.png" alt="Stefano Vincenti Profile Picture" class="profile-image">
+                <div class="header-text">
+                    <h1>Stefano Vincenti</h1>
+                    <p class="subtitle">GenAI Consultant | AI Startup Co-founder | Generative AI Trainer | Lecturer at IT University of Copenhagen</p>
+                    <div class="contact-info">
+                        <span>📍 Copenhagen, Denmark</span>
+                        <span>📧 <a href="mailto:stefano.vincenti@gmail.com">stefano.vincenti@gmail.com</a></span>
+                        <span>📱 +45 25291770</span>
+                    </div>
+                    <div class="contact-info" style="margin-top: 15px;">
+                        <a href="https://www.linkedin.com/in/stefanovincenti" target="_blank">LinkedIn</a> |
+                        <a href="https://www.agilcoach.dk/" target="_blank">AgilCoach.dk</a> |
+                        <a href="https://bottellme.com/" target="_blank">BotTellMe</a> |
+                        <a href="https://tryzone.dk/" target="_blank">tryZone</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
