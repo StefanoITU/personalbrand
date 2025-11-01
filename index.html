@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stefano Vincenti - GenAI Consultant, AI Startup Co-founder, Generative AI Trainer, and Lecturer at IT University of Copenhagen">
+    <meta name="keywords" content="GenAI, AI Consultant, Generative AI, Agile Coach, Product Owner, Copenhagen, AI Transformation">
+    <meta name="author" content="Stefano Vincenti">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Stefano Vincenti - GenAI Consultant & AI Transformation Expert">
+    <meta property="og:description" content="Guiding companies through AI transformations with strategic vision and practical implementation">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stefanoitu.github.io/personalbrand/">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stefano Vincenti - GenAI Consultant">
+    <meta name="twitter:description" content="AI Transformation Expert | Lecturer | Co-founder">
+
+    <title>Stefano Vincenti - GenAI Consultant & AI Transformation Expert</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-color: #1f2937;
+            --text-light: #6b7280;
+            --bg-color: #ffffff;
+            --bg-light: #f9fafb;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header .subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+            opacity: 0.95;
+            font-weight: 400;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .contact-info a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--bg-light);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+        }
+
+        section:nth-child(even) {
+            background-color: var(--bg-light);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        section h3 {
+            font-size: 1.5rem;
+            margin: 30px 0 15px 0;
+            color: var(--secondary-color);
+        }
+
+        section h4 {
+            font-size: 1.2rem;
+            margin: 20px 0 10px 0;
+            color: var(--text-color);
+        }
+
+        /* About Section */
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .skill-card h3 {
+            text-align: left;
+            margin-top: 0;
+            font-size: 1.3rem;
+        }
+
+        .skill-card ul {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .skill-card li {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .skill-card li:last-child {
+            border-bottom: none;
+        }
+
+        .skill-card li::before {
+            content: "✓ ";
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        /* Experience Section */
+        .experience-item {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .experience-item h4 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .experience-item .role {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .experience-item ul {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .experience-item li {
+            margin-bottom: 8px;
+            color: var(--text-light);
+        }
+
+        /* Tags */
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .tag {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+        }
+
+        /* Languages */
+        .languages {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .language {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .language-flag {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .cta h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: white;
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--text-color);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header .subtitle {
+                font-size: 1rem;
+            }
+
+            section h2 {
+                font-size: 1.5rem;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav ul {
+                gap: 15px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Stefano Vincenti</h1>
+            <p class="subtitle">GenAI Consultant | AI Startup Co-founder | Generative AI Trainer | Lecturer at IT University of Copenhagen</p>
+            <div class="contact-info">
+                <span>📍 Copenhagen, Denmark</span>
+                <span>📧 <a href="mailto:stefano.vincenti@gmail.com">stefano.vincenti@gmail.com</a></span>
+                <span>📱 +45 25291770</span>
+            </div>
+            <div class="contact-info" style="margin-top: 15px;">
+                <a href="https://www.linkedin.com/in/stefanovincenti" target="_blank">LinkedIn</a> |
+                <a href="https://www.agilcoach.dk/" target="_blank">AgilCoach.dk</a> |
+                <a href="https://bottellme.com/" target="_blank">BotTellMe</a> |
+                <a href="https://tryzone.dk/" target="_blank">tryZone</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#specialties">Specialties</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I guide companies and train teams through complex AI transformations, bridging the gap between strategic vision and practical implementation. My expertise encompasses AI adoption strategy, solution architecture, and hands-on implementation in teams and organizations.</p>
+                <p style="margin-top: 20px;">With a track record of leading AI transformation initiatives and streamlining software delivery processes, I bring both strategic insight and technical depth to complex challenges. As a teacher at IT University, I stay at the forefront of GenAI and digital innovation, ensuring my consulting work reflects cutting-edge practices grounded in real-world application.</p>
+                <p style="margin-top: 20px;"><strong>Clients value my ability to deliver scalable AI solutions with high business impact that increase quality, efficiency, flow, growth, and employee satisfaction.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Specialties -->
+    <section id="specialties">
+        <div class="container">
+            <h2>Core Specialties</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>AI & Digital Transformation</h3>
+                    <ul>
+                        <li>AI strategy and project management</li>
+                        <li>Prompt engineering for LLMs</li>
+                        <li>Generative AI tools and digital transformation</li>
+                        <li>Organizational transformation and reorganization</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Product Management & Innovation</h3>
+                    <ul>
+                        <li>Product Ownership and data team leadership</li>
+                        <li>Lean Startup practitioner</li>
+                        <li>MVP visioning and OKRs</li>
+                        <li>Design Thinking</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Process Optimization & Facilitation</h3>
+                    <ul>
+                        <li>Strong facilitation skills</li>
+                        <li>AI workshops, presentations & training sessions</li>
+                        <li>Agile coaching and Release Train Engineering (RTE)</li>
+                        <li>Scrum Master training and mentorship</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 50px; text-align: center;">Top Skills</h3>
+            <div class="tags" style="justify-content: center;">
+                <span class="tag">GitHub Expert</span>
+                <span class="tag">Vibe Coding</span>
+                <span class="tag">Scrum Master</span>
+                <span class="tag">ChatGPT & Claude</span>
+                <span class="tag">Product Ownership</span>
+                <span class="tag">AI Strategy</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Generative AI & AI Tools</h3>
+                    <ul>
+                        <li>ChatGPT, Mistral, Gemini, Claude</li>
+                        <li>Prompt & context engineering</li>
+                        <li>RAG tools and Ollama</li>
+                        <li>Python, Flowise, GitHub Copilot</li>
+                        <li>n8n, Make.com, Zapier</li>
+                        <li>Hugging Face & GitHub open source models</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Collaboration & PM Tools</h3>
+                    <ul>
+                        <li>MIRO, Jira, Azure DevOps</li>
+                        <li>Confluence</li>
+                        <li>Mentimeter, Kahoot, EasyRetro</li>
+                        <li>Portfolio management tools</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Development & Data</h3>
+                    <ul>
+                        <li>Data platforms and analytics</li>
+                        <li>Business Intelligence (PowerBI, MSTR)</li>
+                        <li>Cloud platforms (Azure, multi-cloud)</li>
+                        <li>REST APIs and microservices</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; margin-top: 40px;">Languages</h3>
+            <div class="languages">
+                <div class="language">
+                    <div class="language-flag">🇮🇹</div>
+                    <div><strong>Italian</strong><br>Native</div>
+                </div>
+                <div class="language">
+                    <div class="language-flag">🇬🇧</div>
+                    <div><strong>English</strong><br>Full Professional</div>
+                </div>
+                <div class="language">
+                    <div class="language-flag">🇩🇰</div>
+                    <div><strong>Danish</strong><br>Full Professional</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Roles & Experience -->
+    <section id="experience">
+        <div class="container">
+            <h2>Current Roles</h2>
+
+            <div class="experience-item">
+                <h4>IT University of Copenhagen</h4>
+                <div class="role">External Lecturer - Generative AI & Industrial Software Engineering (2020 - Present)</div>
+                <ul>
+                    <li>Teaching GenAI professional courses on AI Tools for companies</li>
+                    <li>AI-agents in Product Development</li>
+                    <li>Industrial Software Engineering in Large Teams</li>
+                    <li>Scrum Master Training</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>BotTellMe</h4>
+                <div class="role">Co-Founder - CPO - CTO (2023 - Present)</div>
+                <ul>
+                    <li>AI workshops and AI Strategy consulting</li>
+                    <li>Custom-designed GenAI solutions (SaaS)</li>
+                    <li>Activating organizational knowledge to improve sales, marketing, and customer service</li>
+                    <li>Motto: <em>People Before Algorithms</em></li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>DSB</h4>
+                <div class="role">Product Owner for Data Team (2024 - Present)</div>
+                <ul>
+                    <li>Building high-performing data team</li>
+                    <li>Implementing new seating application</li>
+                    <li>Real-time data products and Operational Data Store (ODS)</li>
+                    <li>Real-time passenger counting systems</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>tryZone</h4>
+                <div class="role">Consultant & Product Geek (2022 - Present)</div>
+                <ul>
+                    <li>Digital Transformation Consultant and Trainer</li>
+                    <li>Part of a strong social and professional network</li>
+                    <li>Vision: A world where organizations solve complex challenges with engaged people working in teams</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-top: 50px;">Career Highlights</h3>
+
+            <div class="experience-item">
+                <h4>Nexi Group</h4>
+                <div class="role">Release Train Engineer (2023-2024)</div>
+                <ul>
+                    <li>Led PI planning for Danish digital identity solution (5+ million users on iOS and Android)</li>
+                    <li>Delivered three major releases including "channel binding" security feature</li>
+                    <li>Hosted PI Planning events with ~100 participants</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>TDC NET</h4>
+                <div class="role">Project Portfolio Management JIRA Expert (2022-2023)</div>
+                <ul>
+                    <li>Designed and implemented new Project Portfolio Management system</li>
+                    <li>Delivered training programs in Agile Ways of Working</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>Novo Nordisk</h4>
+                <div class="role">Product Manager & PO/SM Coach (2022)</div>
+                <ul>
+                    <li>Led clinical trial data collection solution (global iOS/iPad deployment)</li>
+                    <li>Created Vision, Strategy, and Roadmap for the unit</li>
+                    <li>Drove organizational redesign using Team Topologies principles</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>Pandora</h4>
+                <div class="role">Enterprise Agile Coach (2021-2022)</div>
+                <ul>
+                    <li>Supported Agile Center of Excellence</li>
+                    <li>Designed "Agile. The Pandora Way" framework</li>
+                    <li>Enterprise coach for SAFe and Spotify teams</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>Saxo Bank</h4>
+                <div class="role">Project Manager & Team Coach (2018-2021)</div>
+                <ul>
+                    <li>Led Cloud Factory from scratch</li>
+                    <li>Built future hybrid cloud platform</li>
+                    <li>Achieved board approval for cloud outsourcing</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-top: 40px; text-align: center;">Industry Experience</h3>
+            <div class="tags" style="justify-content: center;">
+                <span class="tag">Finance & Banking</span>
+                <span class="tag">Healthcare & Pharma</span>
+                <span class="tag">Retail & FMCG</span>
+                <span class="tag">Transportation</span>
+                <span class="tag">Telecom</span>
+                <span class="tag">Software</span>
+                <span class="tag">Energy/Utilities</span>
+                <span class="tag">Public Sector</span>
+            </div>
+
+            <p style="text-align: center; margin-top: 20px; font-weight: 600;">
+                International Experience: Denmark, Netherlands, India, UK, USA, Italy
+            </p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <div class="container">
+            <h2>Education & Certifications</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>🎓 Stanford University</h3>
+                    <p><strong>Technology Entrepreneurship</strong></p>
+                    <p>Lean Startup Methodology (2014-2015)</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>🎓 Copenhagen Business School</h3>
+                    <p><strong>MBA, Master of Business Administration</strong></p>
+                    <p>1999-2000</p>
+                    <p><em>'Student of the Year' Award</em></p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>🎓 University of Wyoming</h3>
+                    <p><strong>Fulbright Scholarship</strong></p>
+                    <p>Finance, Banking, Economics (1992-1993)</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>🎓 L.U.I.S.S. University, Rome</h3>
+                    <p><strong>Master's degree (Laurea)</strong></p>
+                    <p>Economics & Finance (1988-1993)</p>
+                    <p><em>Economics degree with Honours</em></p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 40px; text-align: center;">Certifications</h3>
+            <div class="tags" style="justify-content: center;">
+                <span class="tag">Scrum Product Owner Certified (SPOC™)</span>
+                <span class="tag">Certified SAFe® Practitioner</span>
+                <span class="tag">TOGAF® Certification</span>
+                <span class="tag">MSP® Practitioner</span>
+                <span class="tag">Learning GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <h2>Let's Connect!</h2>
+            <p>I'm always interested in discussing AI transformation strategies, agile and product management best practices, digital innovation and team building, or speaking opportunities and training engagements.</p>
+            <div class="cta-buttons">
+                <a href="https://www.linkedin.com/in/stefanovincenti" target="_blank" class="btn">Connect on LinkedIn</a>
+                <a href="mailto:stefano.vincenti@gmail.com" class="btn btn-secondary">Send Email</a>
+                <a href="https://bottellme.com/" target="_blank" class="btn btn-secondary">Visit BotTellMe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Stefano Vincenti. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="https://www.linkedin.com/in/stefanovincenti" target="_blank">LinkedIn</a> |
+                <a href="https://www.agilcoach.dk/" target="_blank">AgilCoach.dk</a> |
+                <a href="https://bottellme.com/" target="_blank">BotTellMe</a> |
+                <a href="https://tryzone.dk/" target="_blank">tryZone</a> |
+                <a href="https://github.com/StefanoITU" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
