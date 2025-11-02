@@ -2,6 +2,8 @@
 
 **GenAI Consultant | AI Startup Co-founder | Generative AI Trainer | Lecturer at IT University of Copenhagen**
 
+🌐 **Portfolio Website:** [stefanoitu.github.io/personalbrand](https://stefanoitu.github.io/personalbrand/)
+
 📍 Copenhagen, Denmark
 📧 stefano.vincenti@gmail.com
 📱 +45 25291770
