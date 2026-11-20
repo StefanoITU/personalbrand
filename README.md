@@ -80,6 +80,14 @@ Via BotTellMe: from idea to working AI prototype, fast.
 
 ## Technical Skills
 
+**Microsoft Agentic Platform (Expert):**
+- Setting up the Microsoft agentic stack end to end
+- Microsoft Agent 365
+- Copilot Studio & Microsoft 365 Copilot
+- Power Platform (Power Automate, Power Apps)
+- Microsoft Foundry (Azure AI Foundry)
+- Governance, security & agent lifecycle
+
 **Generative AI & AI Tools:**
 - Proficient in ChatGPT, Mistral, Gemini, Claude, and other LLMs
 - Prompt & context engineering
@@ -111,6 +119,13 @@ Via BotTellMe: from idea to working AI prototype, fast.
 ---
 
 ## Current Roles
+
+### Bang & Olufsen (Jun 2026 - Present)
+**Fractional Chief AI Officer (Consultant) · Contract**
+- Partnering with the CIO and the leadership team to enable the responsible, secure and compliant adoption of generative AI
+- Setting up the Microsoft agentic platform: Agent 365, Copilot Studio, Power Platform and Microsoft Foundry
+- AI governance, identity and access management (IAM) and security for AI agents
+- Kongens Lyngby, Denmark (hybrid)
 
 ### TryZone (2022 - Present)
 **Partner - AI Strategy, Governance & Learning**
