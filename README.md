@@ -1,23 +1,27 @@
 # Stefano Vincenti
 
-**AI Strategy, Governance & Learning | Fractional Chief AI Officer | Partner, TryZone | Founder, aitrainer.dk | External Lecturer, IT University of Copenhagen**
+**The AI specialist for complex organizations.**
+
+AI Strategy, Governance & Learning | Fractional Chief AI Officer | Partner, TryZone | Founder, aitrainer.dk | Co-founder, BotTellMe | External Lecturer, IT University of Copenhagen & DIS Study Abroad
 
 > *Get your organization ready for AI. From training to execution.*
 
 📍 Copenhagen, Denmark
 📧 stefano@tryzone.dk
 📱 +45 25291770
-🔗 [LinkedIn](https://www.linkedin.com/in/stefanovincenti) | [TryZone](https://tryzone.dk/) | [aitrainer.dk](https://aitrainer.dk/) | [BotTellMe](https://bottellme.com/) | [Newsletter](https://stefanovincenti.substack.com/)
+🔗 [LinkedIn](https://www.linkedin.com/in/stefanovincenti) | [TryZone](https://tryzone.dk/) | [aitrainer.dk](https://aitrainer.dk/) | [BotTellMe](https://bottellme.com/) | [Newsletter](https://stefanovincenti.substack.com/) | [ITU profile](https://researcher.itu.dk/p/da/persons/stefano-vincenti-2)
 
 ---
 
 ## About Me
 
+**I help leaders and teams turn AI ambitions into organizational reality.**
+
 I advise leadership teams on AI strategy and governance, and work as a **fractional Chief AI Officer** for companies that want AI to work in everyday work, with people at the center.
 
-I have 25+ years of experience in IT and digital transformation in Denmark, across large enterprises, startups and academia. I teach generative AI and AI agents at the IT University of Copenhagen and DIS Study Abroad, and I run tailored AI programs through [aitrainer.dk](https://aitrainer.dk/).
+I have 25 years of experience with business-critical IT and digital transformation in Denmark, at organizations such as Saxo Bank, Nexi Group (MitID), BEC, TDC NET, Novo Nordisk, Pandora, Bang & Olufsen and DSB. I teach generative AI and AI agents at the IT University of Copenhagen and DIS Study Abroad, and I run tailored AI programs through [aitrainer.dk](https://aitrainer.dk/).
 
-I am a partner in [TryZone](https://tryzone.dk/), a network of experienced senior consultants helping leaders and teams make change succeed, and co-founder of [BotTellMe](https://bottellme.com/).
+I am a partner in [TryZone](https://tryzone.dk/), a network of experienced senior consultants helping leaders and teams make change succeed, and co-founder of [BotTellMe](https://bottellme.com/), where we build AI solutions and rapid prototypes.
 
 **AI that creates value. From training to execution.**
 
@@ -33,6 +37,14 @@ Fractional Chief AI Officer. Roadmap, portfolio, prioritization and decision-mak
 
 ### AI Architecture & Execution
 From pilot to production, without losing control. AI solution architecture, agentic engineering, vibe coding and AI Readiness Sprints.
+
+### Courses via ITU
+ITU Professional Courses: Learn to use AI agents, Digital Product Development with AI agents.
+
+### Rapid Prototyping & Vibe Coding
+Via BotTellMe: from idea to working AI prototype, fast.
+
+**Popular courses:** AI for Leaders (half-day workshop) · Microsoft 365 Copilot · Cyber Defence with AI Agents (new) · EU AI Act · Agentic Engineering
 
 ---
 
@@ -163,6 +175,12 @@ From pilot to production, without losing control. AI solution architecture, agen
 
 ---
 
+## Selected Organizations
+
+LEGO | Novo Nordisk | Saxo Bank | Pandora | DSB | TDC NET | Nexi Group | BEC | Bang & Olufsen
+
+---
+
 ## Industry Experience
 
 Finance & Banking | Healthcare & Pharmaceuticals | Retail & FMCG | Transportation | Telecom | Software | Energy/Utilities | Public Sector
@@ -214,3 +232,7 @@ Want to get your organization ready for AI? Let's talk about:
 - Speaking engagements
 
 Reach out via [LinkedIn](https://www.linkedin.com/in/stefanovincenti) or email at stefano@tryzone.dk
+
+---
+
+*AI-assisted, human accountable.*
