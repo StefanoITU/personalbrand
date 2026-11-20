@@ -86,7 +86,7 @@ Via BotTellMe: from idea to working AI prototype, fast.
 - Copilot Studio & Microsoft 365 Copilot
 - Power Platform (Power Automate, Power Apps)
 - Microsoft Foundry (Azure AI Foundry)
-- Governance, security & agent lifecycle
+- Governance & guardrails for citizen developers
 
 **Generative AI & AI Tools:**
 - Proficient in ChatGPT, Mistral, Gemini, Claude, and other LLMs
@@ -123,8 +123,7 @@ Via BotTellMe: from idea to working AI prototype, fast.
 ### Bang & Olufsen (Jun 2026 - Present)
 **Fractional Chief AI Officer (Consultant) · Contract**
 - Partnering with the CIO and the leadership team to enable the responsible, secure and compliant adoption of generative AI
-- Setting up the Microsoft agentic platform: Agent 365, Copilot Studio, Power Platform and Microsoft Foundry
-- AI governance, identity and access management (IAM) and security for AI agents
+- Setting up the Microsoft agentic platform: Microsoft Agent 365, Copilot Studio, Power Platform and Microsoft Foundry, with governance and guardrails for AI agents for the citizen developers
 - Kongens Lyngby, Denmark (hybrid)
 
 ### TryZone (2022 - Present)
