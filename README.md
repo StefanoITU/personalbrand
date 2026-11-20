@@ -1,21 +1,38 @@
 # Stefano Vincenti
 
-**GenAI Consultant | AI Startup Co-founder | Generative AI Trainer | Lecturer at IT University of Copenhagen**
+**AI Strategy, Governance & Learning | Fractional Chief AI Officer | Partner, TryZone | Founder, aitrainer.dk | External Lecturer, IT University of Copenhagen**
+
+> *Get your organization ready for AI. From training to execution.*
 
 📍 Copenhagen, Denmark
-📧 stefano.vincenti@gmail.com
+📧 stefano@tryzone.dk
 📱 +45 25291770
-🔗 [LinkedIn](https://www.linkedin.com/in/stefanovincenti) | [AgilCoach.dk](https://www.agilcoach.dk/) | [BotTellMe](https://bottellme.com/) | [tryZone](https://tryzone.dk/)
+🔗 [LinkedIn](https://www.linkedin.com/in/stefanovincenti) | [TryZone](https://tryzone.dk/) | [aitrainer.dk](https://aitrainer.dk/) | [BotTellMe](https://bottellme.com/) | [Newsletter](https://stefanovincenti.substack.com/)
 
 ---
 
 ## About Me
 
-I guide companies and train teams through complex AI transformations, bridging the gap between strategic vision and practical implementation. My expertise encompasses AI adoption strategy, solution architecture, and hands-on implementation in teams and organizations.
+I advise leadership teams on AI strategy and governance, and work as a **fractional Chief AI Officer** for companies that want AI to work in everyday work, with people at the center.
 
-With a track record of leading AI transformation initiatives and streamlining software delivery processes, I bring both strategic insight and technical depth to complex challenges. As a teacher at IT University, I stay at the forefront of GenAI and digital innovation, ensuring my consulting work reflects cutting-edge practices grounded in real-world application.
+I have 25+ years of experience in IT and digital transformation in Denmark, across large enterprises, startups and academia. I teach generative AI and AI agents at the IT University of Copenhagen and DIS Study Abroad, and I run tailored AI programs through [aitrainer.dk](https://aitrainer.dk/).
 
-Clients value my ability to deliver scalable AI solutions with high business impact that increase quality, efficiency, flow, growth, and employee satisfaction.
+I am a partner in [TryZone](https://tryzone.dk/), a network of experienced senior consultants helping leaders and teams make change succeed, and co-founder of [BotTellMe](https://bottellme.com/).
+
+**AI that creates value. From training to execution.**
+
+---
+
+## How I Help
+
+### AI Readiness & Upskilling
+Skills, workflows and governance in practice. AI for Leaders, Microsoft 365 Copilot, Claude training, AI agents, and role-based workshops for developers, product owners, HR, legal and more.
+
+### AI Strategy & Governance
+Fractional Chief AI Officer. Roadmap, portfolio, prioritization and decision-making power. EU AI Act workshops.
+
+### AI Architecture & Execution
+From pilot to production, without losing control. AI solution architecture, agentic engineering, vibe coding and AI Readiness Sprints.
 
 ---
 
@@ -83,38 +100,38 @@ Clients value my ability to deliver scalable AI solutions with high business imp
 
 ## Current Roles
 
-### IT University of Copenhagen (2020 - Present)
-**External Lecturer - Generative AI & Industrial Software Engineering**
-- Teaching GenAI professional courses on AI Tools for companies
-- AI-agents in Product Development
+### TryZone (2022 - Present)
+**Partner - AI Strategy, Governance & Learning**
+- Advising leadership teams on AI strategy and governance
+- Fractional Chief AI Officer for companies that want AI to work in everyday work
+- Part of a network of independent senior consultants in leadership, collaboration and organizational change
+
+### aitrainer.dk
+**Founder**
+- Tailored AI programs: from training to execution
+- Courses: AI for Leaders, Microsoft 365 Copilot, Claude, AI Agents, Agentic Engineering, EU AI Act, Cyber defence with AI agents
+
+### IT University of Copenhagen & DIS Study Abroad (2020 - Present)
+**External Lecturer - Generative AI, AI Agents & Industrial Software Engineering**
+- Learn to use AI agents
+- Digital Product Development with AI agents
 - Industrial Software Engineering in Large Teams
-- Scrum Master Training
 
 ### BotTellMe (2023 - Present)
-**Co-Founder - CPO - CTO**
-- AI workshops and AI Strategy consulting
-- Custom-designed GenAI solutions (SaaS)
+**Co-Founder**
+- Custom-designed GenAI solutions
 - Activating organizational knowledge to improve sales, marketing, and customer service
 - Motto: *People Before Algorithms*
-
-### DSB (2024 - Present)
-**Product Owner for Data Team**
-- Building high-performing data team
-- Implementing new seating application
-- Real-time data products and Operational Data Store (ODS)
-- Real-time passenger counting systems
-
-### tryZone (2022 - Present)
-**Consultant & Product Geek**
-- Digital Transformation Consultant and Trainer
-- Part of a strong social and professional network
-- Vision: A world where organizations solve complex challenges with engaged people working in teams
 
 ---
 
 ## Career Highlights
 
 ### Recent Experience
+
+**DSB** - Product Owner for Data Team (2024)
+- Built a high-performing data team
+- Real-time data products, ODS and passenger counting systems
 
 **Nexi Group** - Release Train Engineer (2023-2024)
 - Led PI planning for Danish digital identity solution (5+ million users on iOS and Android)
@@ -190,10 +207,10 @@ Master's degree (Laurea) - Economics & Finance (1988-1993)
 
 ## Let's Connect!
 
-I'm always interested in discussing:
-- AI transformation strategies
-- Agile and product management best practices
-- Digital innovation and team building
-- Speaking opportunities and training engagements
+Want to get your organization ready for AI? Let's talk about:
+- AI strategy and governance
+- A fractional Chief AI Officer
+- Tailored AI training and workshops
+- Speaking engagements
 
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/stefanovincenti) or email at stefano.vincenti@gmail.com
+Reach out via [LinkedIn](https://www.linkedin.com/in/stefanovincenti) or email at stefano@tryzone.dk
