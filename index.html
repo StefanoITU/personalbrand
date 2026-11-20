@@ -194,6 +194,17 @@
             margin-top: 30px;
         }
 
+        .services-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .services-grid .skill-card {
+            flex: 0 1 calc((100% - 60px) / 3);
+            min-width: 280px;
+        }
+
         .skill-card {
             background: white;
             padding: 30px;
@@ -389,6 +400,16 @@
                 gap: 10px;
             }
 
+            .contact-info.contact-links {
+                flex-direction: row;
+                gap: 8px 18px;
+            }
+
+            .services-grid .skill-card {
+                flex-basis: 100%;
+                min-width: 0;
+            }
+
             nav ul {
                 gap: 15px;
                 font-size: 0.9rem;
@@ -412,12 +433,12 @@
                         <span>📧 <a href="mailto:stefano@tryzone.dk">stefano@tryzone.dk</a></span>
                         <span>📱 +45 25291770</span>
                     </div>
-                    <div class="contact-info" style="margin-top: 15px;">
-                        <a href="https://www.linkedin.com/in/stefanovincenti" target="_blank">LinkedIn</a> |
-                        <a href="https://tryzone.dk/" target="_blank">TryZone</a> |
-                        <a href="https://aitrainer.dk/" target="_blank">aitrainer.dk</a> |
-                        <a href="https://bottellme.com/" target="_blank">BotTellMe</a> |
-                        <a href="https://stefanovincenti.substack.com/" target="_blank">Newsletter</a> |
+                    <div class="contact-info contact-links" style="margin-top: 15px;">
+                        <a href="https://www.linkedin.com/in/stefanovincenti" target="_blank">LinkedIn</a>
+                        <a href="https://tryzone.dk/" target="_blank">TryZone</a>
+                        <a href="https://aitrainer.dk/" target="_blank">aitrainer.dk</a>
+                        <a href="https://bottellme.com/" target="_blank">BotTellMe</a>
+                        <a href="https://stefanovincenti.substack.com/" target="_blank">Newsletter</a>
                         <a href="https://researcher.itu.dk/p/da/persons/stefano-vincenti-2" target="_blank">ITU profile</a>
                     </div>
                 </div>
@@ -455,7 +476,7 @@
     <section id="specialties">
         <div class="container">
             <h2>How I Help</h2>
-            <div class="skills-grid">
+            <div class="skills-grid services-grid">
                 <div class="skill-card">
                     <h3>AI Readiness &amp; Upskilling</h3>
                     <ul>
