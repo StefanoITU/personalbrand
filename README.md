@@ -177,7 +177,7 @@ Via BotTellMe: from idea to working AI prototype, fast.
 
 ## Selected Organizations
 
-LEGO | Novo Nordisk | Saxo Bank | Maersk | Pandora | DSB | TDC NET | Nexi Group | BEC | Bang & Olufsen
+LEGO | Novo Nordisk | Saxo Bank | Pandora | DSB | TDC NET | Nexi Group | BEC | Bang & Olufsen
 
 ---
 
